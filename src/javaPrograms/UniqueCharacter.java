@@ -1,0 +1,41 @@
+package javaPrograms;
+
+import java.util.LinkedHashSet;
+import java.util.Scanner;
+
+public class UniqueCharacter {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the character");//Rishabh
+		
+		
+		String s=sc.nextLine();
+		String str[]=s.split("");
+		
+		LinkedHashSet<String> set=new LinkedHashSet<String>();
+		for(int i=0;i<str.length;i++)
+		{
+			set.add(str[i]);
+		}
+		
+		for(String st:set)
+		{
+			int count=0;
+			for(int i=0;i<str.length;i++)
+			{
+				if(st.equals(str[i]))
+				{
+					count++;
+				}
+			}
+			if(count==1)
+			{
+				System.out.println(st);
+			}
+		}
+	}
+
+	}
+
+
