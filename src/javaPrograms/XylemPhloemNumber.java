@@ -14,6 +14,7 @@ public class XylemPhloemNumber {
 	}
 	public static void XytemPhloemNumber(int num)//static Parameterized constructor
 	{
+		//numbers me % and / to hoga hi dkh lo chahe reverse ya xylem
 		int n=num;
 		int extremesum=0,meansum=0;
 		

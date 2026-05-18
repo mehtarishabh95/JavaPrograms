@@ -2,30 +2,29 @@ package javaPrograms;
 
 import java.util.Scanner;
 
-public class PerfactNumber {
-
+public class PerfactNumber 
+{
+//6 ko isk phle 1,2,3,4,5 se divide kro jis s divide hua unhe add kro 1+2+3=6 means perfact no
 	public static void main(String[] args) 
 	{
 		Scanner sc=new Scanner(System.in);
 		System.out.println("enter the number");
-		int num=sc.nextInt();
+		int n=sc.nextInt();
 		
-		int sum=1;
-		
-		for(int i=2;i<=num/2;i++)
+		int sum=0;
+		for(int i=1;i<n;i++)
 		{
-			if(num%i==0);
-			sum=sum+i;			
+			if(n%i==0)
+			{
+				sum=sum+i;
+			}
 		}
-		if(sum==num)
-		{
-			System.out.println("perfact number");			
-		}
+		if(sum==n)
+			System.out.println("perfact no");
 		else
-		{
-			System.out.println("not a Perfact number");
-		}
-
+			System.out.println("not perfact no");
+		
+		
 	}
 
 }

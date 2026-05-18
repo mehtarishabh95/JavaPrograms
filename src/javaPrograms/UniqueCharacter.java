@@ -10,7 +10,7 @@ public class UniqueCharacter {
 		System.out.println("enter the character");//Rishabh
 		
 		
-		String s=sc.nextLine();
+		String s=sc.next();
 		String str[]=s.split("");
 		
 		LinkedHashSet<String> set=new LinkedHashSet<String>();
@@ -31,7 +31,7 @@ public class UniqueCharacter {
 			}
 			if(count==1)
 			{
-				System.out.println(st);
+				System.out.println("unique char is "+st);
 			}
 		}
 	}
