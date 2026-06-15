@@ -29,7 +29,7 @@ public class BinarySearch
 	public static void main(String[] args) 
 	{
 		int[] arr= {5,8,21,36,46};
-		System.out.println(BinarySearch(arr, 21));
+		System.out.println(BinarySearch(arr, 46));
 
 	}
 

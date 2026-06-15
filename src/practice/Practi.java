@@ -14,15 +14,15 @@ public class Practi {
 		
 		
 		Scanner sc=new Scanner(System.in);
-		String st=sc.nextLine();
-		char [] arr=st.toCharArray();
+		System.out.println("Enter number");
+		int n=sc.nextInt();
 		
-		for(int i=0;i<arr.length;i++) {
-			if(arr[i]>'A'&&arr[i]<'Z') arr[i]=(char) (arr[i]+32);
+		
+		for(int i=1;i<=n;i++) {
+			if(n%i==0) {
+				System.out.print(i+" ");
+			}
 		}
- 		String finalop = new String(arr);
-		System.out.println(finalop);
-		
 		
 		
 		
