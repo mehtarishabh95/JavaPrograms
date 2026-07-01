@@ -3,6 +3,10 @@ package javaPrograms;
 import java.util.Scanner;
 
 public class PalindromNumber {
+	
+//	Examples of palindrome numbers:
+//		121 → reversed is 121 ✔
+//		1331 → reversed is 1331 ✔
 
 	public static void main(String[] args)
 	{
@@ -25,5 +29,25 @@ public class PalindromNumber {
 		}
 
 	}
+	
+	
+//	Scanner sc=new Scanner(System.in);
+//	System.out.println("Enter first number");
+//	int n=sc.nextInt();
+//	int orignal=n;
+//	int newnum=0;
+//	while(n!=0) {
+//		int digit=n%10;
+//		newnum=newnum*10+digit;
+//		n=n/10;
+//	}
+//	System.out.println(newnum);
+//	
+//	if(orignal==newnum) {
+//		System.out.println("palindrome");
+//	}
+//	else {
+//		System.out.println("not");
+//	}
 
 }
